@@ -42,7 +42,7 @@ ul li{
 }
 
 header img{
-    width: 60%;
+    width: 65%;
     margin-top: 40px;
 }
 
@@ -59,7 +59,7 @@ main {
 
 img {
     margin-top: 25px;
-    width: 95%;
+    width: 90%;
 }
 
 h3 {
@@ -68,7 +68,6 @@ h3 {
 
 #portfolio {
     margin-top: 0;
-    padding-top: 25px;
 }
 
 p {
@@ -116,6 +115,10 @@ footer a {
 
 .footer-container {
     display: none;
+}
+
+hr {
+    width: 90%;
 }
 
 /* =========================== Media Queries =========================== */
@@ -178,6 +181,10 @@ footer a {
         padding: 0;
     }
 
+    main img {
+        width: 95%;
+    }
+
     footer p {
         width: 60%;
     }
@@ -219,7 +226,7 @@ footer a {
     nav h1 {
         float: left;
         padding-top: 60px;
-        padding-left: 45px;
+        padding-left: 40px;
         font-size: 2em;
     }
 
@@ -243,6 +250,8 @@ footer a {
         padding-bottom: 0;
     }
 
-
+    footer p {
+        font-size: 1.3em;
+    }
 
 }
